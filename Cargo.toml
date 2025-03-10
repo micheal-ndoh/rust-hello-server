@@ -1,0 +1,13 @@
+[package]
+name = "rust-hello-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.1"
+tokio = { version = "1", features = ["full"] }
+hyper = "1.6.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+
